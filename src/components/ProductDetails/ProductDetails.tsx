@@ -12,8 +12,6 @@ export default function ProductDetails() {
   console.log(product,"hh");
   const {
     restaurant_name,
-    address_complete,
-    logo,
   } = product;
   if (!product) return <p>No product found</p>;
 
