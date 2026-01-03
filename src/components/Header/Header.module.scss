@@ -1,0 +1,40 @@
+.forgot {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.status_bar {
+  height: 44px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  color: #000;
+
+  .time {
+    font-weight: 600;
+  }
+
+  .icons {
+    display: flex;
+    gap: 10px;
+
+    .network {
+      width: 17px;
+      height: 10.67px;
+    }
+
+    .wifi {
+      width: 15.27px;
+      height: 10.97px;
+    }
+
+    .battery {
+      width: 24.33px;
+      height: 11.33px;
+    }
+  }
+}
