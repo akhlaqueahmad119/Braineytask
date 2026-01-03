@@ -40,7 +40,7 @@ export default function RegisterLoginPage() {
 
       <div className={styles.content}>
         <h1>{showOtp ? 'OTP Verification' : 'Enter Your Mobile Number'}</h1>
-
+        <p>{!showOtp ? "We will send you the 6 digits verification code" : 'Enter the verification code we just sent on your Mobile Number.'}</p> 
         {!showOtp ? (
           <>
             <input
